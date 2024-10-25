@@ -3,7 +3,7 @@ on: push
 jobs:
   check-main:
     name: get_hugginface_key
-    runs-on: ubuntu_latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Show Secrets about HugginFace API KEY ${{ secrets.HUGGINGFACE_API_KEY}}"
     
