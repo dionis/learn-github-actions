@@ -12,4 +12,4 @@ jobs:
       - name: Saludar
         run: echo "$SALUDO, $NAME, Today is ${{env.WEEK_DAY}}! and ${{vars.RESEARCH_LLM_TABULAR}}"
         env:
-          NAME: Dionis
+          NAME: Dionis López
