@@ -1,8 +1,9 @@
 name: task_contexto
 on: push
 jobs:
-  check_main:
-    runs_on: ubuntu_latest
+  check-main:
+    name: get_hugginface_key
+    runs-on: ubuntu_latest
     steps:
       - run: echo "Show Secrets about HugginFace API KEY ${{ secrects.HUGGINGFACE_API_KEY}}"
     
