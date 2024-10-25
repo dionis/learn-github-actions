@@ -5,5 +5,5 @@ jobs:
     name: get_hugginface_key
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Show Secrets about HugginFace API KEY ${{ secrets.HUGGINGFACE_API_KEY}}"
+      - run: echo "Show Secrets about HugginFace API KEY: ${{ secrets.HUGGINGFACE_API_KEY}}"
     
