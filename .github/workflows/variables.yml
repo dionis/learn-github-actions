@@ -10,6 +10,6 @@ jobs:
       SALUDO: Hola
     steps:
       - name: Saludar
-        run: echo "$SALUDO, $NAME, Today is $WEEK_DAY! and $RESEARCH_LLM_TABULAR"
+        run: echo "$SALUDO, $NAME, Today is $WEEK_DAY! and ${{ env.RESEARCH_LLM_TABULAR}}"
         env:
           NAME: Dionis
